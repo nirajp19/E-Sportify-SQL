@@ -1,1 +1,11 @@
 # SQL-Project
+
+The project is an eSports league management system that focuses on organizing and managing various aspects of eSports leagues, including players, teams, games, matches, and leagues. It provides a database schema and implements SQL queries using subqueries and joins to retrieve relevant information.
+
+The database schema consists of several tables, including Player, Team, Game, Matches, and League. The Player table stores player details such as player ID, name, role, age, KD (Kill/Death ratio), salary, and email. The Team table contains information about teams, including team ID, team name, in-game leader (IGL), country, and owner. The Game table stores game-related details like game ID, game name, game type, and country. The Matches table includes match-specific information such as match ID, match name, match date, location, MVP player, team ID, and game ID. The League table stores details about leagues, including league ID, league name, start date, end date, team ID, match ID, and game ID.
+
+The project includes subqueries to answer specific questions about the data. For example, one subquery retrieves the age, player name, and salary of players who belong to teams playing the game "BGMI." Another subquery identifies the game in which the match "Tier-3" is played. Additionally, a subquery is used to determine the players who belong to teams that have played matches in Hyderabad.
+
+Furthermore, the project demonstrates the use of joins to retrieve information from multiple tables. One join query retrieves the name of the league, its start and end dates, and the name of the match and MVP player for all matches that have taken place. Another join query retrieves the salary, player name, and the name of the team that the player belongs to for all players, including those who are not currently part of any team. Lastly, a join query retrieves the name and type of the game, along with the name of the match, for all matches played.
+
+Overall, the eSports league management system provides a structured and efficient way to organize and manage eSports leagues, enabling administrators to access relevant information about players, teams, games, matches, and leagues.
