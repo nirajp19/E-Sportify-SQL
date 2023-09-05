@@ -1,4 +1,4 @@
-# SQL-Project
+# E-Sportify (SQL)
 
 The project is an eSports league management system that focuses on organizing and managing various aspects of eSports leagues, including players, teams, games, matches, and leagues. It provides a database schema and implements SQL queries using subqueries and joins to retrieve relevant information.
 
